@@ -45,7 +45,7 @@ int main (int argc, char* argv[])
 		else if(functionid==2)
 			function=function+f2(integral,intensity);
 		else if(functionid==3)
-			function=function+f3(integral,intensity);
+		  function=function+f3(integral,intensity);
 		else if(functionid==4)
 			function=function+f4(integral,intensity);
 		else
@@ -60,3 +60,7 @@ int main (int argc, char* argv[])
 	std::cerr<<timetaken.count()<<"\n";
 	return 0;
 }
+
+
+
+
